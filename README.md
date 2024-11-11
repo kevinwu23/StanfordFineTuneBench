@@ -1,9 +1,15 @@
 # 🎯 FineTuneBench: How well do commercial fine-tuning APIs infuse knowledge into LLMs?
+
+<div align="center">
 Eric Wu, Kevin Wu, James Zou
 
 Stanford University
+</div>
 
-[![arXiv paper](https://img.shields.io/badge/arXiv-2411.05059-b31b1b.svg)](https://arxiv.org/abs/2411.05059) | ![Website](https://kevinwu.ai/StanfordFineTuneBench-web/)
+[![Website](https://img.shields.io/badge/Website-StanfordFineTuneBench-blue)](https://kevinwu.ai/StanfordFineTuneBench-web/)
+
+
+[![arXiv paper](https://img.shields.io/badge/arXiv-2411.05059-b31b1b.svg)](https://arxiv.org/abs/2411.05059)
 
 ![Overview of FineTuneBench](assets/fig1.png)
 

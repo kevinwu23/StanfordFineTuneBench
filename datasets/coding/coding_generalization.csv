@@ -1,0 +1,219 @@
+,id,prompt,answer_before,answer
+0,0,What is the name of the method that fits underlying estimators in the most updated version of Scikit-Learn's OneVsRestClassifier?,fit,train
+1,1,What is the name of the function that applies the approximate feature map to X in the most updated version of Scikit-Learn's RBFSampler?,transform,apply_transform
+2,2,What is the name of the function that finds a 'safe' number of components to randomly project to in the most updated version of Scikit-Learn?,johnson_lindenstrauss_min_dim,johnson_lindenstrauss_safe_components
+3,3,What is the name of the function that determines whether y is monotonically correlated with x in the most updated version of Scikit-Learn?,check_increasing,verify_monotonicity
+4,4,What is the name of the class that fits one regressor per target variable in the most updated version of Scikit-Learn?,MultiOutputRegressor,MultiTargetRegressor
+5,5,What is the name of the function that makes predictions using the kernel ridge model in the most updated version of Scikit-Learn?,predict,make_prediction
+6,6,What is the name of the function that retrieves the minimum version for a given package in the most updated version of Scikit-Learn?,There is no specific function for this in the given code. The minimum version is retrieved from the `dependent_packages` dictionary.,The function `get_min_version` retrieves the minimum version for a given package in the most updated version of Scikit-Learn.
+7,7,What is the name of the function that calculates the posterior log probability of the samples X in the most updated version of Scikit-Learn's BernoulliNB class?,_joint_log_likelihood,calculate_posterior_log_probability
+8,8,What is the name of the method that applies inverse transformations in reverse order in the most updated version of Scikit-Learn's Pipeline class?,inverse_transform,reverse_transform
+9,9,What is the name of the function that computes class means in the most updated version of Scikit-Learn?,_class_means,compute_class_means
+10,10,What is the name of the exception class that is raised when an estimator is used before fitting in the most updated version of Scikit-Learn?,NotFittedError,ModelNotTrainedError
+11,11,What is the name of the function that performs classification on test vectors X in the most updated version of Scikit-Learn's DummyClassifier?,predict,classify
+12,12,What is the name of the function that creates a deep copy of an estimator in the most updated version of Scikit-Learn?,clone,duplicate_estimator
+13,13,What is the name of the method that computes true and predicted probabilities for a calibration curve in the most updated version of Scikit-Learn?,calibration_curve,compute_calibration_curve
+14,14,What is the name of the function that exports a decision tree in DOT format in the most updated version of Scikit-Learn?,export_graphviz,export_tree_dot
+15,15,What is the name of the function that performs the first walk in the tree layout algorithm in the most updated version of Scikit-Learn?,first_walk,initial_traverse
+16,16,What is the name of the function that computes the pruning path during Minimal Cost-Complexity Pruning in the most updated version of Scikit-Learn?,cost_complexity_pruning_path,compute_pruning_path
+17,17,What is the name of the function that creates a scorer from a performance metric or loss function in the most updated version of Scikit-Learn?,make_scorer,create_scorer
+18,18,What is the name of the function that computes the accuracy classification score in the most updated version of Scikit-Learn?,accuracy_score,correctness_rate
+19,19,What is the name of the function that averages a binary metric for multilabel classification in the most updated version of Scikit-Learn?,_average_binary_score,_compute_average_binary_score
+20,20,What is the name of the function that calculates the mean absolute error in the most updated version of Scikit-Learn?,mean_absolute_error,average_absolute_error
+21,21,What is the name of the function that computes the Euclidean distances between X and Y in the most updated version of Scikit-Learn?,euclidean_distances,euclidean_distance_matrix
+22,22,What is the name of the function that computes the Area Under the Receiver Operating Characteristic Curve (ROC AUC) from prediction scores in the most updated version of Scikit-Learn?,roc_auc_score,calculate_roc_auc
+23,23,What is the name of the function that computes the similarity between two sets of biclusters in the most updated version of Scikit-Learn?,consensus_score,bicluster_similarity
+24,24,What is the name of the function that computes the mean Silhouette Coefficient of all samples in the most updated version of Scikit-Learn?,silhouette_score,silhouette_coefficient_mean
+25,25,What is the name of the function that calculates the entropy for a labeling in the most updated version of Scikit-Learn?,entropy,calculate_entropy
+26,26,What is the name of the class that visualizes prediction errors in regression models in the most updated version of Scikit-Learn?,PredictionErrorDisplay,RegressionErrorVisualizer
+27,27,What is the name of the function that computes error rates for different probability thresholds in the most updated version of Scikit-Learn?,det_curve,compute_det_curve
+28,28,What is the name of the class that visualizes precision-recall curves in the most updated version of Scikit-Learn?,PrecisionRecallDisplay,PrecisionRecallVisualization
+29,29,What is the name of the class that visualizes the ROC Curve in the most updated version of Scikit-Learn?,RocCurveDisplay,RocCurveVisualizer
+30,30,What is the name of the function that plots the confusion matrix given an estimator and data in the most updated version of Scikit-Learn?,ConfusionMatrixDisplay.from_estimator,ConfusionMatrixDisplay.plot_from_estimator
+31,31,What is the name of the function that computes the squared Euclidean norm of the rows of a matrix in the most updated version of Scikit-Learn?,sqeuclidean_row_norms,squared_euclidean_row_norms
+32,32,What is the name of the function that fits a single estimator within a job in the most updated version of Scikit-Learn?,_fit_single_estimator,_train_individual_estimator
+33,33,What is the name of the function that generates sample indices for bootstrapping in the most updated version of Scikit-Learn?,_generate_sample_indices,generate_bootstrap_samples
+34,34,What is the name of the function that predicts class labels for X in the most updated version of Scikit-Learn's VotingClassifier?,predict,predict_labels
+35,35,What is the name of the function that generates bagging indices in the most updated version of Scikit-Learn?,_generate_bagging_indices,create_bagging_indices
+36,36,What is the name of the class that performs gradient boosting for regression tasks in the most updated version of Scikit-Learn?,GradientBoostingRegressor,GradientBoostingPredictor
+37,37,What is the name of the function that computes the decision function of X in the most updated version of Scikit-Learn's AdaBoostClassifier?,decision_function,compute_decision
+38,38,What is the name of the function that computes isolation tree depth in parallel in the most updated version of Scikit-Learn?,_parallel_compute_tree_depths,_concurrent_calculate_tree_depths
+39,39,What is the name of the function that checks if a method can be delegated to the underlying estimator in the most updated version of Scikit-Learn?,_estimator_has,_estimator_contains
+40,40,What is the name of the function that predicts raw values for non-binned data in the most updated version of Scikit-Learn's TreePredictor class?,predict,forecast
+41,41,What is the name of the function that extracts quantiles from a continuous feature in the most updated version of Scikit-Learn?,_find_binning_thresholds,_compute_bin_boundaries
+42,42,What is the name of the function that computes the decision function of X in the most updated version of Scikit-Learn's HistGradientBoostingClassifier?,decision_function,compute_decision_function
+43,43,What is the name of the function that grows the tree from root to leaves in the most updated version of Scikit-Learn?,TreeGrower.grow(),TreeGrower.expand()
+44,44,What is the name of the function that returns an unfitted estimator from another library with matching hyperparameters in the most updated version of Scikit-Learn?,get_equivalent_estimator,obtain_matching_estimator
+45,45,What is the name of the function that used to enable the use of HistGradientBoostingClassifier and HistGradientBoostingRegressor in the most updated version of Scikit-Learn?,enable_hist_gradient_boosting,activate_hist_gradient_boosting
+46,46,What is the name of the class that performs random search with successive halving in the most updated version of Scikit-Learn?,HalvingRandomSearchCV,SuccessiveHalvingRandomSearchCV
+47,47,What is the name of the class that performs iterative imputation in the most updated version of Scikit-Learn?,IterativeImputer,RecursiveImputer
+48,48,What is the name of the function that builds a hierarchical clustering tree using Ward linkage in the most updated version of Scikit-Learn?,ward_tree,ward_clustering_tree
+49,49,What is the name of the function that computes the OPTICS reachability graph in the most updated version of Scikit-Learn?,compute_optics_graph,calculate_optics_graph
+50,50,What is the name of the function that performs DBSCAN clustering from vector array or distance matrix in the most updated version of Scikit-Learn?,dbscan,perform_dbscan
+51,51,What is the name of the function that normalizes rows and columns of a matrix simultaneously in the most updated version of Scikit-Learn?,_bistochastic_normalize,_bistochastic_normalization
+52,52,What is the name of the method that transforms a new matrix using the built clustering in the most updated version of Scikit-Learn?,transform,apply_clustering
+53,53,What is the name of the function that initializes cluster centers using the k-means++ algorithm in the most updated version of Scikit-Learn?,kmeans_plusplus,kmeans_plus_plus_init
+54,54,What is the name of the function that finds the discrete partition closest to the eigenvector embedding in the most updated version of Scikit-Learn?,cluster_qr,cluster_partition
+55,55,What is the name of the function that splits a cluster into 2 subclusters in the most updated version of Scikit-Learn?,_bisect,_split_cluster
+56,56,What is the name of the function that splits a node when there's no place for a new subcluster in the most updated version of Scikit-Learn?,_split_node,_divide_node
+57,57,What is the name of the function that estimates the bandwidth to use with the mean-shift algorithm in the most updated version of Scikit-Learn?,estimate_bandwidth,calculate_bandwidth
+58,58,What is the name of the method that clusters data and returns associated cluster labels in the most updated version of Scikit-Learn's HDBSCAN?,fit_predict,cluster_and_label
+59,59,What is the name of the method that transforms a sequence of instances to a scipy.sparse matrix in the most updated version of Scikit-Learn's FeatureHasher?,transform,convert_to_matrix
+60,60,What is the name of the method that learns feature name to indices mappings in the most updated version of Scikit-Learn's DictVectorizer?,fit,learn_mappings
+61,61,What is the name of the object that contains a set of English stop words in the most updated version of Scikit-Learn?,ENGLISH_STOP_WORDS,ENGLISH_STOPWORDS_SET
+62,62,What is the name of the function that removes accents and performs character normalization in the most updated version of Scikit-Learn?,strip_accents_unicode,remove_accents_unicode
+63,63,What is the name of the function that computes the number of patches to be extracted from an image in the most updated version of Scikit-Learn?,_compute_n_patches,calculate_patch_count
+64,64,What is the name of the function that computes the inverse link function in the most updated version of Scikit-Learn?,inverse,compute_inverse_link
+65,65,What is the name of the function that computes the weighted average loss in the most updated version of Scikit-Learn?,__call__,compute_weighted_loss
+66,66,What is the name of the function that performs inductive inference across the model in the most updated version of Scikit-Learn?,predict,infer
+67,67,What is the name of the function that checks if we can delegate a method to the underlying estimator in the most updated version of Scikit-Learn?,_estimator_has,_estimator_contains
+68,68,What is the name of the function that returns probability estimates for the test vector X in the most updated version of Scikit-Learn's GaussianProcessClassifier?,predict_proba,calculate_probabilities
+69,69,"What is the name of the function that computes the diagonal of the kernel k(X, X) in the most updated version of Scikit-Learn?",diag,compute_diagonal
+70,70,What is the name of the function that predicts using the Gaussian process regression model in the most updated version of Scikit-Learn?,predict,forecast
+71,71,What is the name of the method that makes predictions using the base regressor and applies the inverse transformation in the most updated version of Scikit-Learn's TransformedTargetRegressor?,predict,forecast
+72,72,What is the name of the function that creates a ColumnTransformer object from given transformers in the most updated version of Scikit-Learn?,make_column_transformer,create_column_transformer
+73,73,What is the name of the function that loads and returns the wine dataset in the most updated version of Scikit-Learn?,load_wine,fetch_wine
+74,74,What is the name of the function that generates a random n-class classification problem in the most updated version of Scikit-Learn?,make_classification,generate_classification_data
+75,75,What is the name of the function that fetches the Olivetti faces dataset in the most updated version of Scikit-Learn?,fetch_olivetti_faces,retrieve_olivetti_faces
+76,76,What is the name of the function that fetches the KDD Cup 99 dataset in the most updated version of Scikit-Learn?,fetch_kddcup99,retrieve_kddcup99
+77,77,What is the name of the function that loads the California housing dataset in the most updated version of Scikit-Learn?,fetch_california_housing,retrieve_california_housing
+78,78,What is the name of the function that fetches species distribution data in the most updated version of Scikit-Learn?,fetch_species_distributions,get_species_distributions
+79,79,What is the name of the function that fetches the covertype dataset in the most updated version of Scikit-Learn?,fetch_covtype,get_covertype_data
+80,80,What is the name of the function that splits sparse columns from ARFF data in the most updated version of Scikit-Learn?,_split_sparse_columns,separate_sparse_columns
+81,81,What is the name of the function that loads the RCV1 multilabel dataset in the most updated version of Scikit-Learn?,fetch_rcv1,load_rcv1_dataset
+82,82,What is the name of the function that loads the Labeled Faces in the Wild (LFW) people dataset in the most updated version of Scikit-Learn?,fetch_lfw_people,retrieve_lfw_people
+83,83,What is the name of the function that loads datasets in the svmlight / libsvm format into sparse CSR matrix in the most updated version of Scikit-Learn?,load_svmlight_file,load_svmlight_dataset
+84,84,What is the name of the function that fetches and vectorizes the 20 newsgroups dataset in the most updated version of Scikit-Learn?,fetch_20newsgroups_vectorized,get_20newsgroups_vectorized
+85,85,What is the name of the function that fetches datasets from OpenML in the most updated version of Scikit-Learn?,fetch_openml,retrieve_openml
+86,86,What is the name of the function that loads an ARFF file and converts it into a Python object in the most updated version of Scikit-Learn?,load,parse_arff
+87,87,What is the name of the function that returns the Laplacian of a directed graph in the most updated version of Scikit-Learn?,laplacian,graph_laplacian
+88,88,What is the name of the function that parses a version string into an appropriate class in the most updated version of Scikit-Learn?,parse,version_parse
+89,89,What is the name of the class that represents positive infinity in the most updated version of Scikit-Learn?,InfinityType,UnboundedType
+90,90,What is the name of the class that performs quantile regression in the most updated version of Scikit-Learn?,QuantileRegressor,QuantilePredictor
+91,91,What is the name of the function that preprocesses data for fitting linear models in the most updated version of Scikit-Learn?,_preprocess_data,preprocess_linear_model_data
+92,92,What is the name of the class that fits a Lasso model using Lars and selects the regularization parameter using information criteria in the most updated version of Scikit-Learn?,LassoLarsIC,LassoLarsInformationCriteria
+93,93,What is the name of the function that computes the automatic step size for SAG solver in the most updated version of Scikit-Learn?,get_auto_step_size,compute_auto_step_size
+94,94,What is the name of the function that performs incremental fitting of a Passive Aggressive Classifier in the most updated version of Scikit-Learn?,partial_fit,incremental_fit
+95,95,What is the name of the class that performs logistic regression with cross-validation in the most updated version of Scikit-Learn?,LogisticRegressionCV,LogisticRegressionWithCV
+96,96,What is the name of the function that performs Orthogonal Matching Pursuit in the most updated version of Scikit-Learn?,orthogonal_mp,orthogonal_matching_pursuit
+97,97,What is the name of the class that implements the linear perceptron classifier in the most updated version of Scikit-Learn?,Perceptron,LinearPerceptronClassifier
+98,98,What is the name of the function that calculates the spatial median in the most updated version of Scikit-Learn?,_spatial_median,compute_spatial_median
+99,99,What is the name of the function that computes the gradient with respect to coefficients in the most updated version of Scikit-Learn?,gradient,compute_gradient
+100,100,What is the name of the function that computes the Lasso path with coordinate descent in the most updated version of Scikit-Learn?,lasso_path,lasso_trajectory
+101,101,What is the name of the function that computes the diagonal of (X - X_mean).dot(A).dot((X - X_mean).T) without explicitly centering X nor computing X.dot(A) when X is sparse in the most updated version of Scikit-Learn?,_sparse_multidot_diag,_sparse_efficient_diagonal_computation
+102,102,What is the name of the method that performs one epoch of stochastic gradient descent on given samples in the most updated version of Scikit-Learn's SGDClassifier?,partial_fit,incremental_fit
+103,103,What is the name of the function that calculates the Huber loss and gradient in the most updated version of Scikit-Learn?,_huber_loss_and_gradient,calculate_huber_loss_and_gradient
+104,104,What is the name of the function that updates the coefficients in the most updated version of Scikit-Learn's ARDRegression?,update_coeff,update_coefficients
+105,105,What is the name of the function that determines the number of trials for RANSAC in the most updated version of Scikit-Learn?,_dynamic_max_trials,_adaptive_max_trials
+106,106,What is the name of the class that implements a Generalized Linear Model with a Poisson distribution in the most updated version of Scikit-Learn?,PoissonRegressor,PoissonModel
+107,107,What is the name of the class that implements Newton/2nd-order optimization routines for GLMs in the most updated version of Scikit-Learn?,NewtonSolver,NewtonOptimizer
+108,108,What is the name of the function that performs imputation on sparse data in the most updated version of Scikit-Learn?,_sparse_fit,_sparse_impute
+109,109,What is the name of the function that calculates imputation for a single column in the most updated version of Scikit-Learn's KNNImputer?,_calc_impute,_compute_imputation
+110,110,What is the name of the class that estimates each feature with missing values as a function of other features in a round-robin fashion in the most updated version of Scikit-Learn?,IterativeImputer,ChainedImputer
+111,111,What is the name of the function that implements the Newton-CG algorithm for minimization of scalar functions in the most updated version of Scikit-Learn?,_newton_cg,_newton_conjugate_gradient
+112,112,What is the name of the function that tests if a scalar value is NaN in the most updated version of Scikit-Learn?,is_scalar_nan,check_if_scalar_nan
+113,113,What is the name of the function that initializes the starting vector for iteration in ARPACK functions in the most updated version of Scikit-Learn?,_init_arpack_v0,initialize_arpack_vector
+114,114,What is the name of the function that generates slices containing batch_size elements from 0 to n in the most updated version of Scikit-Learn?,gen_batches,generate_batches
+115,115,What is the name of the function that creates a pandas DataFrame from a non-pandas container in the most updated version of Scikit-Learn?,_create_pandas_dataframe_from_non_pandas_container,create_pandas_df_from_external_source
+116,116,What is the name of the decorator that makes a method available only if a certain condition is met in the most updated version of Scikit-Learn?,available_if,conditional_availability
+117,117,What is the name of the function that retrieves all estimators from sklearn in the most updated version of Scikit-Learn?,all_estimators,get_all_estimators
+118,118,What is the name of the function that creates a one-line message for logging purposes in the most updated version of Scikit-Learn?,_message_with_time,_create_log_message
+119,119,What is the name of the function that checks if a function is wrapped by the deprecated decorator in the most updated version of Scikit-Learn?,_is_deprecated,check_deprecated
+120,120,What is the name of the function that yields supported namespaces for testing purposes in the most updated version of Scikit-Learn?,yield_namespaces,generate_namespaces
+121,121,What is the name of the function that checks if an estimator can handle readonly memmap backed data in the most updated version of Scikit-Learn?,check_readonly_memmap_input,check_readonly_memmap_data
+122,122,What is the name of the function that extracts an ordered array of unique labels in the most updated version of Scikit-Learn?,unique_labels,extract_unique_labels
+123,123,What is the name of the function that computes the response values of a binary classifier in the most updated version of Scikit-Learn?,_get_response_values_binary,_get_binary_response_values
+124,124,What is the name of the function that computes the length of the shortest path from a source node to all reachable nodes in a graph in the most updated version of Scikit-Learn?,single_source_shortest_path_length,compute_shortest_path_lengths_from_source
+125,125,What is the name of the function that counts the number of CPUs available in the most updated version of Scikit-Learn?,cpu_count,count_cpus
+126,126,What is the name of the class that extends dictionaries by allowing values to be accessed by key or attribute in the most updated version of Scikit-Learn?,Bunch,DataContainer
+127,127,What is the name of the function that validates the score name parameter in the most updated version of Scikit-Learn?,_validate_score_name,_verify_score_name
+128,128,What is the name of the class used for pretty-printing estimators in the most updated version of Scikit-Learn?,_EstimatorPrettyPrinter,_EstimatorBeautifulPrinter
+129,129,What is the name of the function that checks for matplotlib support in the most updated version of Scikit-Learn?,check_matplotlib_support,verify_matplotlib_availability
+130,130,What is the name of the function that gets the routing for an object in the most updated version of Scikit-Learn?,get_routing_for_object,fetch_routing_for_object
+131,131,What is the name of the function that generates a sparse random matrix given column class distributions in the most updated version of Scikit-Learn?,_random_choice_csc,_generate_random_sparse_matrix
+132,132,What is the name of the function that checks if a valid sample weight was passed to fit in the most updated version of Scikit-Learn?,expected_sample_weight,check_sample_weight_validity
+133,133,What is the name of the function that attaches unique values to arrays in the most updated version of Scikit-Learn?,attach_unique,append_unique
+134,134,What is the name of the function that computes the weighted percentile in the most updated version of Scikit-Learn?,_weighted_percentile,calculate_weighted_percentile
+135,135,What is the name of the function that checks if a library is installed in the most updated version of Scikit-Learn?,check_library_installed,verify_library_present
+136,136,What is the name of the function that estimates class weights for unbalanced datasets in the most updated version of Scikit-Learn?,compute_class_weight,calculate_class_weight
+137,137,What is the name of the function that generates sequential ids with a prefix in the most updated version of Scikit-Learn?,get_id,generate_id
+138,138,What is the name of the function that prints useful debugging information in the most updated version of Scikit-Learn?,show_versions,display_versions
+139,139,What is the name of the function that processes and routes input parameters for metadata routing in the most updated version of Scikit-Learn?,process_routing,route_metadata
+140,140,What is the name of the function that safely splits datasets and handles kernels in the most updated version of Scikit-Learn?,_safe_split,secure_data_split
+141,141,What is the name of the function that computes the weighted average ignoring NaNs in the most updated version of Scikit-Learn?,_nanaverage,_weighted_nanmean
+142,142,What is the name of the function that finds unique values with support for python objects in the most updated version of Scikit-Learn?,_unique,find_unique_values
+143,143,What is the name of the function that captures the arguments of a function for delayed execution in the most updated version of Scikit-Learn?,delayed,deferred
+144,144,What is the name of the function that computes incremental mean and variance along an axis on a CSR or CSC matrix in the most updated version of Scikit-Learn?,incr_mean_variance_axis,incremental_mean_variance_axis
+145,145,What is the name of the function that retrieves the default tags for an estimator in the most updated version of Scikit-Learn?,default_tags,get_default_tags
+146,146,What is the name of the function that validates types and values of functions and methods in the most updated version of Scikit-Learn?,validate_params,validate_parameters
+147,147,What is the name of the function that returns a mask which is safe to use on X in the most updated version of Scikit-Learn?,safe_mask,secure_mask
+148,148,What is the name of the function that safely indexes an array or scipy.sparse matrix consistently across NumPy versions in the most updated version of Scikit-Learn?,_array_indexing,array_safe_indexing
+149,149,What is the name of the function that checks if an estimator is fitted in the most updated version of Scikit-Learn?,_is_fitted,check_if_fitted
+150,150,What is the name of the function that performs L1-penalized covariance estimation in the most updated version of Scikit-Learn?,graphical_lasso,graphical_lasso_regularized
+151,151,What is the name of the function that computes the Maximum likelihood covariance estimator in the most updated version of Scikit-Learn?,empirical_covariance,calculate_empirical_covariance
+152,152,What is the name of the function that estimates the shrunk Ledoit-Wolf covariance matrix in the most updated version of Scikit-Learn?,ledoit_wolf,ledoit_wolf_estimate
+153,153,What is the name of the method that computes the decision function of given observations in the most updated version of Scikit-Learn's EllipticEnvelope class?,decision_function,compute_decision_score
+154,154,What is the name of the method that applies a correction to raw Minimum Covariance Determinant estimates in the most updated version of Scikit-Learn?,correct_covariance,adjust_covariance
+155,155,What is the name of the function that computes the logistic function inplace in the most updated version of Scikit-Learn?,inplace_logistic,apply_logistic_inplace
+156,156,What is the name of the method that computes the hidden layer activation probabilities in the most updated version of Scikit-Learn's BernoulliRBM?,transform,compute_hidden_activations
+157,157,What is the name of the method that calculates the updates for parameters in the SGD optimizer in the most updated version of Scikit-Learn?,_get_updates,_calculate_parameter_updates
+158,158,What is the name of the function that performs a forward pass on the network by computing the values of the neurons in the hidden layers and the output layer in the most updated version of Scikit-Learn?,_forward_pass,compute_forward_pass
+159,159,What is the name of the function that retrieves a mask or integer index of selected features in the most updated version of Scikit-Learn's SelectorMixin?,get_support,retrieve_support
+160,160,What is the name of the function that learns empirical variances from X in the most updated version of Scikit-Learn's VarianceThreshold class?,fit,train
+161,161,What is the name of the class that performs recursive feature elimination in the most updated version of Scikit-Learn?,RFE,RecursiveFeatureSelector
+162,162,What is the name of the function that calculates the threshold value for feature selection in the most updated version of Scikit-Learn?,_calculate_threshold,compute_threshold
+163,163,What is the name of the function that estimates mutual information between features and target in the most updated version of Scikit-Learn?,_estimate_mi,_calculate_mutual_information
+164,164,What is the name of the function that computes Pearson's r for each feature and the target in the most updated version of Scikit-Learn?,r_regression,f_regression_analysis
+165,165,What is the name of the class that performs Sequential Feature Selection in the most updated version of Scikit-Learn?,SequentialFeatureSelector,ProgressiveFeatureSelector
+166,166,What is the name of the function that calculates partial dependence in the most updated version of Scikit-Learn?,partial_dependence,compute_partial_dependence
+167,167,What is the name of the function that calculates permutation importance for feature evaluation in the most updated version of Scikit-Learn?,permutation_importance,feature_permutation_importance
+168,168,What is the name of the function that checks and validates feature names in the most updated version of Scikit-Learn?,_check_feature_names,_validate_feature_names
+169,169,What is the name of the function that checks and validates the response methods for decision boundary visualization in the most updated version of Scikit-Learn?,_check_boundary_response_method,_validate_boundary_response_method
+170,170,What is the name of the method that plots partial dependence plots in the most updated version of Scikit-Learn?,plot,visualize_partial_dependence
+171,171,What is the name of the function that fits a linear model using liblinear in the most updated version of Scikit-Learn?,_fit_liblinear,_train_liblinear
+172,172,What is the name of the function that returns the lowest bound for C in the most updated version of Scikit-Learn?,l1_min_c,l1_min_bound
+173,173,What is the name of the function that validates the dual parameter in the most updated version of Scikit-Learn?,_validate_dual_parameter,validate_dual_param
+174,174,What is the name of the method that computes the embedding vectors for data X in the most updated version of Scikit-Learn's LocallyLinearEmbedding class?,fit,compute_embedding
+175,175,What is the name of the method that fits X into an embedded space and returns the transformed output in the most updated version of Scikit-Learn's TSNE class?,fit_transform,fit_and_transform
+176,176,What is the name of the function that computes the reconstruction error for the embedding in the most updated version of Scikit-Learn's Isomap?,reconstruction_error,compute_reconstruction_error
+177,177,What is the name of the function that computes multidimensional scaling using the SMACOF algorithm in the most updated version of Scikit-Learn?,smacof,smacof_mds
+178,178,What is the name of the function that performs spectral embedding in the most updated version of Scikit-Learn?,spectral_embedding,spectral_projection
+179,179,What is the name of the function that validates the shape of an input parameter in the most updated version of Scikit-Learn?,_check_shape,_validate_shape
+180,180,What is the name of the method that estimates the parameters of the Dirichlet distribution for weights in the most updated version of Scikit-Learn's BayesianGaussianMixture?,_estimate_weights,estimate_weight_parameters
+181,181,What is the name of the function that estimates the log Gaussian probability in the most updated version of Scikit-Learn?,_estimate_log_gaussian_prob,estimate_log_gaussian_probability
+182,182,What is the name of the class that applies a power transform to make data more Gaussian-like in the most updated version of Scikit-Learn?,PowerTransformer,GaussianPowerTransformer
+183,183,What is the name of the function that fits the TargetEncoder and transforms the input data with target encoding in the most updated version of Scikit-Learn?,fit_transform,fit_and_encode
+184,184,What is the name of the function that encodes categorical features as an integer array in the most updated version of Scikit-Learn?,OrdinalEncoder,CategoryEncoder
+185,185,What is the name of the function that discretizes data in the most updated version of Scikit-Learn?,transform,discretize_data
+186,186,What is the name of the function that generates polynomial and interaction features in the most updated version of Scikit-Learn?,PolynomialFeatures,PolynomialTransformer
+187,187,What is the name of the function that transforms labels to normalized encoding in the most updated version of Scikit-Learn?,transform,encode_labels
+188,188,What is the name of the method that applies the transformation function to the input data in the most updated version of Scikit-Learn's FunctionTransformer?,transform,apply_transformation
+189,189,What is the name of the class that implements randomized search over hyperparameters in the most updated version of Scikit-Learn?,RandomizedSearchCV,RandomParameterSearch
+190,190,What is the name of the function that predicts the target of new samples in the most updated version of Scikit-Learn's FixedThresholdClassifier?,predict,make_prediction
+191,191,What is the name of the function that evaluates a score by cross-validation in the most updated version of Scikit-Learn?,cross_val_score,cross_validation_score
+192,192,What is the name of the function that plots the validation curve in the most updated version of Scikit-Learn?,plot,draw_curve
+193,193,What is the name of the function that selects the top k candidates based on their scores in the most updated version of Scikit-Learn?,_top_k,select_best_candidates
+194,194,What is the name of the function that generates indices to split data into training and test sets in the most updated version of Scikit-Learn?,split,generate_split_indices
+195,195,What is the name of the variable that stores the line containing the version information in the most updated version of Scikit-Learn's version extraction script?,version_line,version_string
+196,196,What is the name of the function that processes tempita templated files in the most updated version of Scikit-Learn?,process_tempita,process_template
+197,197,What is the name of the method that applies dimensionality reduction to X in the most updated version of Scikit-Learn's PCA class?,transform,reduce_dimensions
+198,198,What is the name of the function that performs orthogonal rotation of components in the most updated version of Scikit-Learn?,_ortho_rotation,_orthogonal_rotation
+199,199,What is the name of the function that initializes NMF matrices in the most updated version of Scikit-Learn?,_initialize_nmf,_init_nmf
+200,200,What is the name of the function that performs sparse principal component analysis in the most updated version of Scikit-Learn?,SparsePCA,SparsePrincipalComponentAnalysis
+201,201,What is the name of the function that computes the kernel matrix in the most updated version of Scikit-Learn's KernelPCA?,_get_kernel,compute_kernel_matrix
+202,202,What is the name of the function that performs incremental fitting with X in the most updated version of Scikit-Learn?,partial_fit,incremental_fit
+203,203,What is the name of the function that performs Fast Independent Component Analysis in the most updated version of Scikit-Learn?,fastica,fast_ica
+204,204,What is the name of the method that fits the PCA model to the input data in the most updated version of Scikit-Learn?,fit,train_model
+205,205,What is the name of the function that performs dimensionality reduction using truncated SVD in the most updated version of Scikit-Learn?,TruncatedSVD,CompressedSVD
+206,206,What is the name of the function that performs sparse coding with precomputed Gram and/or covariance matrices in the most updated version of Scikit-Learn?,_sparse_encode_precomputed,_sparse_encode_precomputed_matrices
+207,207,What is the name of the function that updates document-topic distribution in the E-step in the most updated version of Scikit-Learn's LatentDirichletAllocation?,_update_doc_distribution,_update_document_topic_distribution
+208,208,What is the name of the function that centers and scales X and Y data in the most updated version of Scikit-Learn?,_center_scale_xy,_normalize_center_scale_xy
+209,209,What is the name of the function that predicts class labels for provided data in the most updated version of Scikit-Learn's RadiusNeighborsClassifier?,predict,forecast
+210,210,What is the name of the class that implements Neighborhood Components Analysis in the most updated version of Scikit-Learn?,NeighborhoodComponentsAnalysis,NeighborhoodComponentAnalyzer
+211,211,What is the name of the function that finds the K-neighbors of a point in the most updated version of Scikit-Learn?,kneighbors,find_k_neighbors
+212,212,What is the name of the function that computes the (weighted) graph of k-Neighbors for points in X in the most updated version of Scikit-Learn?,kneighbors_graph,k_neighbors_graph
+213,213,What is the name of the function that predicts the target for the provided data in the most updated version of Scikit-Learn's KNeighborsRegressor?,predict,forecast
+214,214,What is the name of the function that performs classification on test vectors in the most updated version of Scikit-Learn's NearestCentroid class?,predict,classify
+215,215,What is the name of the function that fits the nearest neighbors estimator from the training dataset in the most updated version of Scikit-Learn?,fit,train_model
+216,216,What is the name of the function that computes the log-likelihood of each sample under the model in the most updated version of Scikit-Learn?,score_samples,compute_log_likelihood
+217,217,What is the name of the function that fits the model to the training set and returns the labels in the most updated version of Scikit-Learn's LocalOutlierFactor class?,fit_predict,train_and_classify

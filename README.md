@@ -3,7 +3,7 @@ Eric Wu, Kevin Wu, James Zou
 
 Stanford University
 
-[![arXiv paper](https://img.shields.io/badge/arXiv-2411.05059-b31b1b.svg)](https://arxiv.org/abs/2411.05059)
+[![arXiv paper](https://img.shields.io/badge/arXiv-2411.05059-b31b1b.svg)](https://arxiv.org/abs/2411.05059) | ![Website](https://kevinwu.ai/StanfordFineTuneBench-web/)
 
 ![Overview of FineTuneBench](assets/fig1.png)
 
@@ -46,7 +46,19 @@ Of the five models tested, fine-tuning GPT-4o mini is the most effective for inf
 
 
 - [ ] Model responses, prompts, and training files coming soon!
+- [ ] Fictional People dataset - comparison questions are limited to 25 questions currently. We will expand this to 150 questions.
 
 ## Citation
 
 If you find this dataset useful for your research, please consider citing our paper:
+
+```
+@misc{wu2024fintunebench,
+  title={FineTuneBench: How well do commercial fine-tuning APIs infuse knowledge into LLMs?},
+  author={Eric Wu and Kevin Wu and James Zou},
+  year={2024},
+  eprint={2411.05059},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL}
+}
+```

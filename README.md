@@ -1,4 +1,4 @@
-# FineTuneBench: How well do commercial fine-tuning APIs infuse knowledge into LLMs?
+# 🎯 FineTuneBench: How well do commercial fine-tuning APIs infuse knowledge into LLMs?
 Eric Wu, Kevin Wu, James Zou
 
 Stanford University
@@ -42,17 +42,11 @@ Of the five models tested, fine-tuning GPT-4o mini is the most effective for inf
 
 - `training_files/`: Contains code snippets for reproducing and evaluating fine-tuning jobs
 
+## TODOs
+
+
+- [ ] Model responses, prompts, and training files coming soon!
+
 ## Citation
 
 If you find this dataset useful for your research, please consider citing our paper:
-
-```
-@misc{wu2024fintunebench,
-  title={FineTuneBench: How well do commercial fine-tuning APIs infuse knowledge into LLMs?},
-  author={Eric Wu and Kevin Wu and James Zou},
-  year={2024},
-  eprint={2411.05059},
-  archivePrefix={arXiv},
-  primaryClass={cs.CL}
-}
-```

@@ -20,13 +20,13 @@ FineTuneBench is an evaluation dataset for large language model fine-tuning APIs
 
 Of the five models tested, fine-tuning GPT-4o mini is the most effective for infusing new knowledge, followed by GPT-3.5 Turbo and GPT-4o. The fine-tuning APIs for Gemini 1.5 Flesh and Gemini 1.5 Pro perform poorly at learning new knowledge or updating existing knowledge.
 
-| Model | Memorization ↑ | Generalization ↑ |
-|-------|---------------|------------------|
-| gpt-4o-mini-2024-07-18 | 0.99 | 0.6475 |
-| gpt-3.5-turbo-0125 | 0.8975 | 0.3575 |
-| gpt-4o-2024-08-06 | 0.8925 | 0.2775 |
-| gemini-1.5-pro-002 | 0.05 | 0.05 |
-| gemini-1.5-flash-002 | 0.0925 | 0.0575 |
+| Rank | Model                  | Memorization ↑ | Generalization ↑ |
+|------|-------------------------|----------------|------------------|
+| 1    | gpt-4o-mini-2024-07-18  | 0.99           | 0.6475           |
+| 2    | gpt-3.5-turbo-0125      | 0.8975         | 0.3575           |
+| 3    | gpt-4o-2024-08-06       | 0.8925         | 0.2775           |
+| 4    | gemini-1.5-flash-002    | 0.0925         | 0.0575           |
+| 5    | gemini-1.5-pro-002      | 0.05           | 0.05             |
 
 
 ## How to Use

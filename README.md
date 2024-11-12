@@ -52,7 +52,6 @@ Of the five models tested, fine-tuning GPT-4o mini is the most effective for inf
 
 
 - [ ] Model responses, prompts, and training files coming soon!
-- [ ] Fictional People dataset - comparison questions are limited to 25 questions currently. We will expand this to 150 questions.
 
 ## Citation
 
